@@ -1,0 +1,38 @@
+.footer-container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--sky-primary);
+    height:200px;
+    
+}
+
+.footer-wrapper{
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    /* margin-bottom: 40px;  */
+
+}
+
+
+.footer-title{
+    display: flex;
+    align-items: center;
+    color:white;
+    
+    /* padding-top:5rem; */
+    
+}
+
+@media screen and (max-width: 992px){
+    .footer-container{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        background-color: var(--sky-primary);
+        height:300px;
+        
+    }
+}

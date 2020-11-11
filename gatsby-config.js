@@ -5,6 +5,16 @@
  */
 
 module.exports = {
+  siteMetadata: {
+    title: "Portfolio",
+    description: "Portfolio Website",
+  },
   /* Your site config here */
-  plugins: [],
+  plugins: [{
+    resolve: `gatsby-source-filesystem`,
+    options: {
+      name: `assets`,
+        path: `${__dirname}/src/images/`,
+    },
+  },`gatsby-transformer-sharp`, `gatsby-plugin-sharp`],
 }

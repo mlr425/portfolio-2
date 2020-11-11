@@ -1,0 +1,103 @@
+@import 'nav.css';
+@import 'hero.css';
+@import 'projects.css';
+@import 'footer.css';
+@import 'aboutme.css';
+@import 'contactme.css';
+@import 'button.css';
+@import 'mylinks.css';
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+:root{
+  --ff-primary: "Roboto", sans-serif;
+  --ff-secondary: "Open Sans", sans-serif;
+  --sky-primary: #1c2237;
+  --white-primary:#ECEDE8;
+}
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.grey-out{
+  color:grey;
+}
+
+/* this deals w/ the footer positioning
+https://www.youtube.com/watch?v=NQ_Ym8juJqo */
+.flexThisBox{
+  display:flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.main{
+  flex: 1 0 auto;
+  background-color: var(--white-primary);
+}
+
+body {
+  font-family: var(--ff-secondary);
+  line-height: 1.5;
+  font-size: 0.875rem;
+  
+}
+
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  text-transform: capitalize;
+  line-height: 1.25;
+  margin-bottom: 0.75rem;
+}
+
+h1 {
+  font-size: 3rem;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.25rem;
+}
+h4 {
+  font-size: 0.875rem;
+}
+p {
+  margin-bottom: 1.25rem;
+  /* color: var(--clr-grey-3); */
+  
+}
+@media screen and (min-width: 992px) {
+  h1 {
+    font-size: 4rem;
+  }
+  h2 {
+    font-size: 2.5rem;
+  }
+  h3 {
+    font-size: 1.75rem;
+  }
+  h4 {
+    font-size: 1rem;
+  }
+  body {
+    font-size: 1rem;
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    line-height: 1;
+  }
+}

@@ -1,0 +1,50 @@
+.about-me-container{
+    display:flex;
+    /* align-items: center; */
+    justify-content: center;
+    padding-bottom:auto;
+    height:75vh;
+    /* border:1px solid green; */
+}
+
+.col1{
+    
+}
+.col2{
+
+}
+
+.about-me-wrapper{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.about-me-article{
+    padding:10px;
+}
+
+.about-me-title{
+    padding-top:1rem;
+    border-bottom: 3px var(--sky-primary) solid;
+}
+
+.about-me-p{
+    max-width: 600px;
+    font-size:1.3rem;
+}
+
+.working-on-list{
+    display:flex;
+    flex-direction: column;
+}
+
+.list-item{
+    display:flex;
+    align-items: center;
+
+}
+
+.list-item svg{
+    color:var(--sky-primary);
+}
