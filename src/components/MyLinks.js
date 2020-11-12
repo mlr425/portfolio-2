@@ -1,6 +1,6 @@
 import React from 'react'
 //css that belongs to mylinks.js is in hero.css
-
+import {Link} from "gatsby"
 import {SiLeetcode} from 'react-icons/si'
 import { FaLinkedin, FaGithub, FaAt, FaRegNewspaper} from 'react-icons/fa'
 export default function MyLinks() {
@@ -29,10 +29,15 @@ export default function MyLinks() {
                       </li>
 
                       <li className="hero-social-card">
-                        <a className="social-link" href="/contact" target="_blank"> 
+                        {/* <a className="social-link" href="/" target="_blank"> 
                           <FaAt className="icons"></FaAt>
                           <div>Email</div> 
-                        </a>
+                        </a> 
+                        */}
+                        <Link className="social-link" to="/contact">
+                          <FaAt className="icons"></FaAt>
+                          <div>Email</div>
+                        </Link>
                       </li>
 
                       {/* <li className="hero-social-card">
