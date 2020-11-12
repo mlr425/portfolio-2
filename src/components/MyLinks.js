@@ -7,44 +7,40 @@ export default function MyLinks() {
     return (
         <div className="links-main">
                     <ul className="links-container">
-                      {/* <li className="hero-social-card">
+                      <li className="hero-social-card">
                         <a className="social-link" href="https://leetcode.com/mlr425/" target="_blank"> 
                           <SiLeetcode className="icons"></SiLeetcode> 
                           <div>LeetCode</div> 
                         </a>
-                      </li> */}
+                      </li>
 
                       <li className="hero-social-card">
-                        <a className="social-link" href="/" target="_blank"> 
+                        <a className="social-link" href="https://github.com/mlr425" target="_blank"> 
                           <FaGithub className="icons"></FaGithub>
                           <div>Github</div> 
                         </a>
                       </li>
 
                       <li className="hero-social-card">
-                        <a className="social-link" href="/" target="_blank"> 
+                        <a className="social-link" href="https://www.linkedin.com/in/mlr425/" target="_blank"> 
                           <FaLinkedin className="icons"></FaLinkedin>
                           <div>LinkedIn</div> 
                         </a>
                       </li>
 
                       <li className="hero-social-card">
-                        <a className="social-link" href="/" target="_blank"> 
+                        <a className="social-link" href="/contact" target="_blank"> 
                           <FaAt className="icons"></FaAt>
                           <div>Email</div> 
                         </a>
                       </li>
 
-                      <li className="hero-social-card">
+                      {/* <li className="hero-social-card">
                         <a className="social-link" href="/" target="_blank"> 
                           <FaRegNewspaper className="icons"></FaRegNewspaper>
                           <div>Resume</div> 
                         </a>
-                      </li>
-
-                      
-                      
-                      
+                      </li> */}
                     </ul>
                 </div>
     )

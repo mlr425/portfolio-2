@@ -45,7 +45,7 @@ export default function Projects() {
                         </div>
                             <div className="project-links">
                                 <a className="grey-out"><GrResources></GrResources> Live Preview  </a>
-                                <a href=""><VscSourceControl></VscSourceControl> View Source</a>
+                                <a className="grey-out"><VscSourceControl></VscSourceControl> View Source</a>
                             </div>
                         </div>
                         <div className="project-tech"> 
@@ -96,7 +96,7 @@ export default function Projects() {
                         </div>
                             <div className="project-links">
                                 <a className="grey-out"><GrResources></GrResources> Live Preview  </a>
-                                <a  className="grey-out"><VscSourceControl></VscSourceControl> View Source</a>
+                                <a href="https://github.com/mlr425/portfolio-2" target="_blank"><VscSourceControl></VscSourceControl> View Source</a>
                             </div>
                         </div>
                         <div className="project-tech"> 

@@ -40,8 +40,10 @@ export default function AboutMe() {
                     <h1 className="about-me-title">What I'm Working On</h1>
                     <ul className="working-on-list">
                         {/* <li className="list-item"> <VscDebugBreakpointData/> <span>Finish portfolio</span> </li> */}
-                        <li className="list-item"> <VscDebugBreakpointData/> <span>Move project content + pics to headless cms - contentful</span> </li>
+                        <li className="list-item"> <VscDebugBreakpointData/> <span>Move project content + pics to headless cms - contentful(?)</span> </li>
                         <li className="list-item"> <VscDebugBreakpointData/> <span>clean up the css for this portfolio</span> </li>
+                        <li className="list-item"> <VscDebugBreakpointData/> <span>id like to add a modal/popup for my email on main pg, similar to my links</span> </li>
+                        <li className="list-item"> <VscDebugBreakpointData/> <span>find a 3rd party site to host my resume for download</span> </li>
                         {/* <li className="list-item"> <VscDebugBreakpointData/> <span>add comments to code?</span> </li> */}
                     </ul>
                 </article>

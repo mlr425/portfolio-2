@@ -132,7 +132,7 @@ export default function AllProjects() {
                             
                             <div className="project-links">
                                 <a className="grey-out"><GrResources></GrResources> Live Preview  </a>
-                                <a href=""><VscSourceControl></VscSourceControl> View Source</a>
+                                <a href="https://github.com/mlr425/portfolio-2" target="_blank"><VscSourceControl></VscSourceControl> View Source</a>
                             </div>
                         </div>
                         <div className="project-tech"> 
@@ -209,8 +209,8 @@ export default function AllProjects() {
                         </div>
                             
                             <div className="project-links">
-                                <a className="grey-out"><GrResources></GrResources> Live Preview  </a>
-                                <a href=""><VscSourceControl></VscSourceControl> View Source</a>
+                                <a href="https://dreamy-goldberg-09635e.netlify.app/" target="_blank"><GrResources></GrResources> Live Preview  </a>
+                                <a href="https://github.com/mlr425/shopify-react-practice" target="_blank"><VscSourceControl></VscSourceControl> View Source</a>
                             </div>
                         </div>
                         <div className="project-tech"> 
@@ -287,8 +287,8 @@ export default function AllProjects() {
                         </div>
                             
                             <div className="project-links">
-                                <a className="grey-out"><GrResources></GrResources> Live Preview  </a>
-                                <a href=""><VscSourceControl></VscSourceControl> View Source</a>
+                                <a href="https://admiring-tereshkova-9b2cc6.netlify.app/" target="_blank"><GrResources></GrResources> Live Preview  </a>
+                                <a href="https://github.com/mlr425/haircutPractice1" target="_blank"><VscSourceControl></VscSourceControl> View Source</a>
                             </div>
                         </div>
                         <div className="project-tech"> 
