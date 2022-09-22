@@ -5,9 +5,11 @@ import {VscDebugBreakpointData,VscSourceControl} from 'react-icons/vsc'
 import {GrResources} from 'react-icons/gr'
 import Image from '../components/ImageProvider'
 
-//was thinking about using headless cms to host all the data
+//was thinking about using headless cms (like sanity.io) to host all the data
 //but decided against it bc the scope of the project is small
 //might refactor it eventually to add it 
+//would get rid of a lot of html -> or could put into a component 
+//just doing small updates for now. will remake portfolio 
 
 // const query = graphql`
 //     {
@@ -199,6 +201,101 @@ export default function AllProjects() {
                         </div>
                     </div>
                 </div>
+
+                {/* 2022 update */}
+                <div className="project">
+                    <div className="col-1">
+                        <h3 className="project-name">Blue Hill Forums</h3>
+                        <div className="project-picture">
+                        <div className="project-picture-container">
+                            <Image fileName="bhf.jpg" style={{ width: '100%' }} alt="" />
+                        </div>
+                            
+                            <div className="project-links">
+                                <a href="https://curious-sunshine-bb18a5.netlify.app/posts" target="_blank"><GrResources></GrResources> Live Preview  </a>
+                                <a href="https://github.com/mlr425/blue-hill-forums" target="_blank"><VscSourceControl></VscSourceControl> View Source</a>
+                            </div>
+                        </div>
+                        <div className="project-tech"> 
+                            <h4>Technologies Used</h4>
+                            <ul className="project-tech-list">
+                                <li> 
+                                    <div className="project-tech-center">
+                                    <VscDebugBreakpointData></VscDebugBreakpointData> <span>ReactJS</span>
+                                    </div>
+                                </li>
+                                <li> 
+                                    <div className="project-tech-center">
+                                    <VscDebugBreakpointData></VscDebugBreakpointData> <span>MongoDB</span>
+                                    </div>
+                                </li>
+                                <li> 
+                                    <div className="project-tech-center">
+                                    <VscDebugBreakpointData></VscDebugBreakpointData> <span>NodeJS</span>
+                                    </div>
+                                </li>
+                                <li> 
+                                    <div className="project-tech-center">
+                                    <VscDebugBreakpointData></VscDebugBreakpointData> <span>ExpressJS</span>
+                                    </div>
+                                </li>
+                                <li> 
+                                    <div className="project-tech-center">
+                                    <VscDebugBreakpointData></VscDebugBreakpointData> <span>Material UI</span>
+                                    </div>
+                                </li>
+                                <li> 
+                                    <div className="project-tech-center">
+                                    <VscDebugBreakpointData></VscDebugBreakpointData> <span>Redux</span>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div className="col-2">
+                        <div className="project-details">
+                            <h3 className="project-details-title">Overview </h3>
+                            <p className="project-details-text">
+                                •	Developed a full stack social media application in React for users to create posts, comment, like, share, and upload images<br/>
+                                •	Designed the frontend with Material UI in React with desktop and mobile responsiveness in mind<br/>
+                                •	Created a RESTful API backend from the ground up using Node.js and Express to handle user accounts, comments, and posts with storage in MongoDB<br/>
+                                •	Integrated authentication with support for local and Google OAuth sign-in for users to create their profiles<br/>
+                                •	Deployed the application on Heroku and used Netlify's CI/CD pipeline to ensure production application deployed without issue<br/>
+                            </p>
+                            <h3 className="project-details-title">Project Difficulties </h3>
+                            <p className="project-details-text">
+                                <ul className="all-projects-ul">
+                                    <li>
+                                        <div className="project-details-notable-feats">
+                                        <VscDebugBreakpointData></VscDebugBreakpointData> <span>Using Redux for the first time</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div className="project-details-notable-feats">
+                                        <VscDebugBreakpointData></VscDebugBreakpointData><span>Setting up local auth and Google OAuth 2.0 for the first time</span>
+                                        </div>
+                                    </li>
+                                    {/* <li>
+                                        <div className="project-details-notable-feats">
+                                        <VscDebugBreakpointData></VscDebugBreakpointData> <span> </span>
+                                        </div>
+                                    </li> */}
+                                    
+                                </ul>
+                            </p>
+                            <h3 className="project-details-title">My Solution </h3>
+                            <p className="project-details-text">
+                                Watching Youtube videos, reading documentation, and looking for examples
+                            </p>
+                            <h3 className="project-details-title">What I Would do Differently </h3>
+                            <p className="project-details-text">
+                                I jumped into the project with the plan to just display posts anonymously but then quickly decided on adding a lot of new features like auth, user profiles, likes, etc. I should have planned out what features I really want to see so I can have a defined final application. Right now, I feel like this is a cool project because I can add a lot of features like user profile pictures, a leaderboard for likes, video posts, adding comment chains, and more. 
+                            </p>
+                            
+                        </div>
+                    </div>
+                </div>
+                {/* end */}
 
                 <div className="project">
                     <div className="col-1">
